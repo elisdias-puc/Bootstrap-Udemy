@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-sm{
+    border:2px solid blue;
+    margin-bottom: 10px;
+    
+}
+.container-md{
+    border:2px solid green;
+    margin-bottom: 10px;
+}
+
+.container-lg{
+    border:2px solid chocolate;
+    margin-bottom: 10px;
+}
+.container{
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row{
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.col,
+.col-4,
+.col-2,
+.col-3,
+.col-1,
+.col-6,
+.col-11{
+    
+    border:  2px dashed hotpink;
+    height: 100%;
+    margin: 0;
+
+}
+.vertical{
+    height: 250px;
+    border: solid coral;
+}
+.vertical .row{
+    height: 100%;
+
+}
+.col-6,
+.col-3{
+    height: 50px;
+}
